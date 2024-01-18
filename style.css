@@ -1,0 +1,86 @@
+/* ----------- Container ----------- */
+@media (min-width: 1200px) {
+    .container-fluid {
+      max-width: 1080px;
+    }
+  }
+  
+  .container-fluid, .container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  /* ----------- Navigation ----------- */
+  
+  @media (min-width: 1200px) {
+    #navbarMenu {
+      display: none !important;
+    }
+  
+    #xlNavbar .nav-link div:hover {
+      border-bottom: 2px solid #525151
+    }
+  }
+  
+  #navbar {
+    z-index: 1;
+  }
+  
+  #xlNavbar .navbar-brand, #navbarMenuToggler, #xlNavbar .nav-link {
+    line-height: 80px;
+  }
+  
+  #xlNavbar .nav-link {
+    font-size: 14px;
+  }
+  
+  #navbarMenuToggler {
+    color: rgb(92, 88, 88);
+    transition: color 0.25s;
+    z-index: 1;
+  }
+  
+  #navbarMenuToggler.collapsed {
+    color: #fff;
+  }
+  
+  #navbarMenu .nav-link {
+    color: #333;
+  }
+  
+  #navbarMenu {
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 88px;
+  }
+  
+  #navbarMenu .nav-link {
+    padding: 12px 0;
+  }
+  
+  /* ----------- Hero ----------- */
+  
+  #hero {
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+    background-position: center bottom;
+  }
+  
+  #hero h2 {
+    padding-top: 168px;
+  }
+  
+  #message {
+    bottom: 0;
+    right: 0;
+  }
+  
+  @media (min-width: 1200px) {
+    #hero {
+      height: 100vh;
+      min-height: 650px;
+    }
+  }
+  
+ 
