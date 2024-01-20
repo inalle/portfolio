@@ -58,7 +58,7 @@
   #navbarMenu .nav-link {
     padding: 12px 0;
   }
-  
+
   /* ----------- Hero ----------- */
   
   #hero {
@@ -67,13 +67,15 @@
     background-position: center bottom;
   }
   
-  #hero h2 {
-    padding-top: 168px;
+  #hero h1 {
+    padding-top: 250px;
+    text-align: center;
+    font-size: 150px;
   }
-  
-  #message {
-    bottom: 0;
-    right: 0;
+  .description{
+    color: white;
+    font-size: 20px;
+    text-align: center;
   }
   
   @media (min-width: 1200px) {
